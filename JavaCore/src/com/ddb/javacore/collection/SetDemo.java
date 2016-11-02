@@ -75,8 +75,8 @@ public class SetDemo {
 		out.println("intList.removeAll(intList2) :" + intList.removeAll(intList2));
 		out.println("intList :" + intList);
 		
-		/*intList.removeAll(intSet);
-		out.println("intList :" + intList);*/
+		intList.removeAll(intSet);
+		out.println("intList :" + intList);
 	}
 
 }

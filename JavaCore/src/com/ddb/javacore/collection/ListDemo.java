@@ -75,15 +75,16 @@ public class ListDemo {
 		out.println(strList.subList(1, 4));
 		out.println("strList.subList(1, 4) : " + strList.subList(1, 4));
 		out.println("strList.subList(1, 4).toString() : " + strList.subList(1, 4).toString());
+		
 		Iterator<String> iterator= strList.iterator();
 		while (iterator.hasNext()) {
 			Object object = (Object) iterator.next();
 			out.println(object);
 		}
 		
-		strList.clear();
+		/*strList.clear();
 		out.println("strList.clear() :");
-		out.println(strList);
+		out.println(strList);*/
 	}
 
 }
