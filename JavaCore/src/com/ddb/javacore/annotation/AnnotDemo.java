@@ -20,6 +20,8 @@ public class AnnotDemo {
 		}
 		out.println("Cat : " + cat);
 
+		
+		
 	}
 
 }
