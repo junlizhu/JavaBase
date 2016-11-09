@@ -29,6 +29,8 @@ public class ListDemo {
 		strList2.add("am");
 		strList2.add("dudongbin");
 		
+		
+		
 		PrintStream out = System.out;
 		//打印list 长度
 		out.println("strList.size() : " + strList.size());
