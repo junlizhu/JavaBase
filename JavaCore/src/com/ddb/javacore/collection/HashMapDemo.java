@@ -29,7 +29,7 @@ public class HashMapDemo {
 		out.println("-------------------------------------------------");
 		for (Entry<Long, Integer> entry : hMap.entrySet()) {
 			out.println("entry : " + entry);
-			out.println(entry.getKey() + " = " + entry.getValue());
+			out.println(entry.getKey() + "---->" + entry.getValue());
 		}
 		
 		

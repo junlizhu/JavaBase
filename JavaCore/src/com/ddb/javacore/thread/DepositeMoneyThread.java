@@ -13,7 +13,7 @@ class DepositeMoneyThread extends Thread {
 
 	public void run() {
 		for (int i = 0; i <= 5; i++) {
-			account.deposite(amount, i);
+			account.deposite (amount, i);
 		}
 	}
 }

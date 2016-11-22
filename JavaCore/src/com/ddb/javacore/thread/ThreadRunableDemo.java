@@ -11,6 +11,7 @@ public class ThreadRunableDemo {
 		myThread.start();
 		myRunable.start();
 		
+	
 	}
 
 }

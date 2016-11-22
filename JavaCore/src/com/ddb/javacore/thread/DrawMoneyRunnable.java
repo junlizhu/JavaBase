@@ -16,7 +16,7 @@ class DrawMoneyRunnable implements Runnable {
 		this.drawAmount = drawAmount;
 	}
 
-	public void run() {
+	/*public void run() {
 		System.out.println(Thread.currentThread().getName());
 		if (account.getBalance() >= drawAmount) { // 1
 			System.out.println("取钱成功， 取出钱数为：" + drawAmount);
@@ -24,9 +24,9 @@ class DrawMoneyRunnable implements Runnable {
 			account.setBalance(balance);
 			System.out.println("余额为：" + balance);
 		}
-	}
+	}*/
 
-/*	public synchronized void run() {
+	/*public synchronized void run() {
 		
 		System.out.println(Thread.currentThread().getName());
 		if (account.getBalance() >= drawAmount) { // 1
@@ -36,10 +36,10 @@ class DrawMoneyRunnable implements Runnable {
 			System.out.println("余额为：" + balance);
 		}
 		
-	}
+	}*/
 	public void run() {
 		//public synchronized void run() {
-		lock.lock();
+		//lock.lock();
 		System.out.println(Thread.currentThread().getName());
 		if (account.getBalance() >= drawAmount) { // 1
 			System.out.println("取钱成功， 取出钱数为：" + drawAmount);
@@ -47,8 +47,8 @@ class DrawMoneyRunnable implements Runnable {
 			account.setBalance(balance);
 			System.out.println("余额为：" + balance);
 		}
-		lock.unlock();
-	}*/
+		//lock.unlock();
+	}
 	
 	/*public void run() {
 		synchronized (account) {
