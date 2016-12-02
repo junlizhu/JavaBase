@@ -5,7 +5,7 @@ public class HelloDemo3 {
 		args[0] = "123";
 		args[1] = "456";
 		System.out.println("Hello World!");
-		System.out.println("ÎÒÊÇË­£¬ÎÒµÄÃû×ÖÊÇ£º" + args[0] + "ÎÒµÄÄêÁäÊÇ£º" + args[1]);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ë­ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½" + args[0] + "ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½" + args[1]);
 		System.out.println(args[2]);
 
 	}
